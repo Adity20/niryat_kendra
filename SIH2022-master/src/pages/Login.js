@@ -21,7 +21,7 @@ import {
 } from "../redux/actions";
 
 //Images
-import logo from "../img/logo.png";
+import logo from "/Users/nikhilyadav/Documents/niryat_kendra/SIH2022-master/src/img/onlylogobr.png";
 import cross_black from "../img/cross_black.svg";
 
 const Login = ({ onClick }) => {
@@ -130,7 +130,7 @@ const Login = ({ onClick }) => {
   }
 
   return (
-    <div className="fixed top-0 z-50 w-full bg-[#219653]">
+    <div className="fixed top-0 z-50 w-full bg-[white]">
       <div className="absolute top-2 right-2 ">
         <img
           src={cross_black}
@@ -150,7 +150,7 @@ const Login = ({ onClick }) => {
             : "hidden opacity-0 -translate-x-full"
         }`}
       >
-        <div className="bg-[#219653] h-screen flex justify-center align-center p-12">
+        <div className="bg-[#BE1C2D] h-screen flex justify-center align-center p-12">
           <div className="rounded-2xl bg-white w-1/3 h-auto p-9 ">
             <form onSubmit={verify} className="flex flex-col relative">
               <div className="absolute -top-16 float-center flex flex-col left-1/2 -translate-x-1/2">
@@ -174,7 +174,7 @@ const Login = ({ onClick }) => {
                 required={true}
               />
               <button
-                className="px-6 py-1 mx-auto rounded-lg text-white text-lg font-semibold bg-[#219653] hover:opacity-90"
+                className="px-6 py-1 mx-auto rounded-lg text-white text-lg font-semibold bg-[#BE1C2D] hover:opacity-90"
                 type="submit"
               >
                 Verify OTP
@@ -207,7 +207,7 @@ const Login = ({ onClick }) => {
       >
         <div className="flex justify-center py-9 rounded-2xl">
           <div
-            className="px-9 relative w-2/3 bg-[#219653]"
+            className="px-9 relative w-2/3 bg-[#BE1C2D]"
             style={{
               paddingTop: "5rem",
               paddingBottom: "5rem"
@@ -246,7 +246,7 @@ const Login = ({ onClick }) => {
                 type="password"
               />
               <button
-                className="px-6 py-1 w-32 mx-auto rounded-lg text-white text-xl font-semibold bg-[#219653] hover:opacity-90"
+                className="px-6 py-1 w-32 mx-auto rounded-lg text-white text-xl font-semibold bg-[#BE1C2D] hover:opacity-90"
                 type="submit"
               >
                 Login
@@ -272,7 +272,7 @@ const Login = ({ onClick }) => {
                 type="text"
               />
               <button
-                className="px-6 py-1 mx-auto rounded-lg text-white text-xl font-semibold bg-[#219653] hover:opacity-90"
+                className="px-6 py-1 mx-auto rounded-lg text-white text-xl font-semibold bg-[#BE1C2D] hover:opacity-90"
                 onClick={() => handleLoginPhone()}
               >
                 Login with OTP

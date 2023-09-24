@@ -1,14 +1,15 @@
 .equipImg {
     max-width: 100%;
     background-color: rgba(36,42,53,.5);
-    filter: brightness(60%);
+    filter: brightness(40%);
     border-radius: 4px;
-    opacity: 0.92;
+    opacity: 0.52;
 }
 
 .equipImg:hover {
     transition: all 0.5s ease-in-out;
     transform: scale(1.1);
+
 }
 
 .equipTitle {
@@ -16,8 +17,11 @@
     top: 5px;
     left: 10px;
     color: white;
-    z-index: 999;
+    z-index: 9;
     font-weight: 700;
     font-size: 22px;
 
+}
+.my6{
+    margin: 40px;
 }

@@ -1,13 +1,13 @@
 import React from "react";
 import "./Workflow.css";
 // import Rectangle73 from "../../../img/Rectangle73.png";
-import videoPic from "../../../img/videoPic.png";
+import videoPic from "/Users/nikhilyadav/Documents/niryat_kendra/SIH2022-master/src/img/nikhil.png";
 
 const Workflow = () => {
   return (
-    <div className=" mb-10 p-12 bg-[#219653] ">
+    <div className=" mb-10 p-12 bg-[#EF6674] ">
       <h1 className="text-4xl font-bold uppercase mb-4 text-center">
-        How KRISHI SADHAN works?
+      Wondering how our Nriyat Network operates? 
       </h1>
       <p className="text-md font-medium uppercase mb-4 text-white text-center">
         Take a Look at out Platform Demo
@@ -17,14 +17,17 @@ const Workflow = () => {
           <ul className="list-decimal ml-[90px] list-inside">
             <li className="text-2xl mr-4 my-4">Sign-up to the platform.</li>
             <li className="text-2xl mr-4 my-3">
-              Post your ad for the off-season.
+            Create a Portal Bill: File your export details electronically. 
             </li>
-            <li className="text-2xl mr-4 my-4">Provide equipment details.</li>
+            <li className="text-2xl mr-4 my-4">Visit DNK: Present your parcel at the nearest Dak Ghar Niryat Kendra.</li>
             <li className="text-2xl mr-4 my-3">
-              Explore and filter lists of equipment.
+            SEAMLESS EXPORT:  Experience a streamlined export process.
             </li>
             <li className="text-2xl mr-4 my-4">
-              Check an available time slot.
+            Connect with Customers: Reach international buyers effortlessly. 
+            </li>
+            <li className="text-2xl mr-4 my-3">
+            Affordable Solutions: Enjoy cost-effective export options.
             </li>
             <li className="text-2xl mr-4 my-3">
               Chat with the owner and make a booking..

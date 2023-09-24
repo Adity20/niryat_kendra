@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import { useNavigate } from "react-router-dom";
-import logo from "../../img//logo.png";
+import logo from "/Users/nikhilyadav/Documents/niryat_kendra/SIH2022-master/src/img/onlylogobr.png";
 import Vector from "../../img//Vector.png";
 import Vector1 from "../../img//Vector1.png";
 import Vector2 from "../../img//Vector2.png";
@@ -10,7 +10,7 @@ import footerBg from "../../img//footerBg.png";
 const Footer = () => {
   const navigate = useNavigate();
   return (
-    <div className="bg-[#219653] inPhone py-20">
+    <div className="bg-[#be1c2d] inPhone py-20">
       <div className="flex justify-center items-center">
         <div className="flex-1 border-r-2 border-black-600">
           <div
@@ -20,10 +20,10 @@ const Footer = () => {
             <img src={logo} className="footerLogo" alt="" />
             <div className="ml-4">
               <h3 className="text-2xl text-white font-bold mt-4">
-                Krishi <br /> Sadhan
+                Niryat <br /> Network
               </h3>
               <p className="text-md font-normal text-white mt-2">
-                Kisaan upkaran ka ek Matra Sadhan.
+                Niryat ka ek Matra Sadhan.
               </p>
             </div>
           </div>
@@ -101,13 +101,13 @@ const Footer = () => {
             />
           </div>
           <p className="text-lg ml-6 text-white">
-            Made by : <strong>Team Gryffindor</strong>
+            Made by : <strong>Team Niryat Army</strong>
           </p>
         </div>
         <div className="flex-1 flex mr-6">
           <img src={footerBg} className="footerBgImg" alt="" />
           <h1 className="text-xl text-white font-bold mt-6">
-            Ministry of Skill Development and Entrepreneurship
+            Ministry of Communications
           </h1>
         </div>
       </div>

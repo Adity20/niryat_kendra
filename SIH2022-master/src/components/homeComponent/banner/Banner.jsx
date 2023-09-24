@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Banner.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import home1 from "../../../img/home1.webp";
+import home1 from "/Users/nikhilyadav/Documents/niryat_kendra/SIH2022-master/src/img/mainbg.png";
 import slider2 from "../../../img/slider2.webp";
 import slider3 from "../../../img/slider3.webp";
 import { useNavigate, Navigate } from "react-router-dom";
@@ -80,11 +80,11 @@ const Banner = () => {
           <div>
             <div className="flex flex-col justify-center -mt-10 wrapper">
               <p className="text-2xl font-normal text-white">
-                Namaste, welcome to Krishi Sadhan.
+                Namaste, welcome to Niryat Network.
               </p>
-              <h1 className="text-4xl font-bold text-white">
-                <span className="text-[#219653]">Farmer’s Eqipments</span> at
-                reasonable <br /> and affordable prices.
+              <h1 className="text-4xl font-bold text-white">Make your 
+                <span className="text-[#be1c2d]"> Import/Export </span>
+                more <br /> secure  and affordable .
               </h1>
               <p className="text-lg font-normal mt-2 mb-4 text-white">
                 Start now with just one click.
@@ -92,13 +92,13 @@ const Banner = () => {
               <div className="flex justify-center items-center mx-auto">
                 <button
                   onClick={() => navigate("/dashboard")}
-                  className="shadow-md mr-3 tooltip bg-[#219653] hover:bg-[#64a55a] text-white font-semibold text-lg w-[200px] py-2 px-2 rounded"
+                  className="shadow-md mr-3 tooltip bg-[#be1c2d] hover:bg-[#64a55a] text-white font-semibold text-lg w-[200px] py-2 px-2 rounded"
                 >
                   Book Now
                 </button>
                 <i
                   onClick={SpeechRecognition.startListening}
-                  className="text-darkgreen tooltip cursor-pointer text-2xl mr-5 fa-solid fa-microphone"
+                  className="text-darkred tooltip cursor-pointer text-2xl mr-5 fa-solid fa-microphone"
                 >
                   <span className="tooltiptext">Search by Voice</span>
                 </i>

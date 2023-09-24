@@ -13,7 +13,7 @@ import { isEmail, isEmpty, isValidPassword } from "../utils/validation";
 
 //Images
 import cross_black from "../img/cross_black.svg";
-import logo from "../img/logo.png";
+import logo from "/Users/nikhilyadav/Documents/niryat_kendra/SIH2022-master/src/img/onlylogobr.png";
 
 const Register = ({ onClick }) => {
   const [email, setEmail] = useState("");
@@ -82,7 +82,7 @@ const Register = ({ onClick }) => {
   }
 
   return (
-    <div className="flex flex-col fixed top-0 bg-[#219653] z-50 w-full">
+    <div className="flex flex-col fixed top-0 bg-[white] z-50 w-full">
       <div className="absolute top-2 right-2 ">
         <img
           src={cross_black}
@@ -95,7 +95,7 @@ const Register = ({ onClick }) => {
         <div
           className="px-9 relative w-2/3"
           style={{
-            backgroundColor: "#219653",
+            backgroundColor: "#BE1C2D",
             paddingTop: "5rem",
             paddingBottom: "5rem"
           }}
@@ -161,7 +161,7 @@ const Register = ({ onClick }) => {
               required={true}
             />
             <button
-              className="px-6 py-1 w-32 mx-auto rounded-lg text-white text-xl font-semibold bg-[#219653] hover:opacity-90"
+              className="px-6 py-1 w-32 mx-auto rounded-lg text-white text-xl font-semibold bg-[#BE1C2D] hover:opacity-90"
               type="submit"
             >
               Register

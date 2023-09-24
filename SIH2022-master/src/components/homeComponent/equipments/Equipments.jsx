@@ -4,36 +4,36 @@ import "./Equipments.css";
 const images = [
   {
     img: "https://s3.ap-south-1.amazonaws.com/www.beroni.in/farmease-app/categories/Tractors.jpg",
-    title: "Tractors"
+    title: "Locate DNK Center"
   },
   {
     img: "https://s3.ap-south-1.amazonaws.com/www.beroni.in/farmease-app/categories/Tillage_Equipment.jpg",
-    title: "Tillage Equipment"
+    title: "Export Price Calculator"
   },
   {
     img: "https://s3.ap-south-1.amazonaws.com/www.beroni.in/farmease-app/categories/Seeding_Equipment.jpg",
-    title: "Seeding Equipments"
+    title: "Track Consignment"
   },
   {
     img: "https://s3.ap-south-1.amazonaws.com/www.beroni.in/farmease-app/categories/Landscaping_Equipment.jpg",
-    title: "Landscape Equipment"
+    title: "News & Notices"
   },
-  {
-    img: "https://s3.ap-south-1.amazonaws.com/www.beroni.in/farmease-app/categories/Crop_Protection.jpg",
-    title: "Crop Protection"
-  },
-  {
-    img: "https://s3.ap-south-1.amazonaws.com/www.beroni.in/farmease-app/categories/Harvest_Equipment.jpg",
-    title: "Harvest Equipment"
-  },
-  {
-    img: "https://s3.ap-south-1.amazonaws.com/www.beroni.in/farmease-app/categories/Post_Harvest.jpg",
-    title: "Post Harvest"
-  },
-  {
-    img: "https://s3.ap-south-1.amazonaws.com/www.beroni.in/farmease-app/categories/Haulage.jpg",
-    title: "Haulage"
-  }
+  // {
+  //   img: "https://s3.ap-south-1.amazonaws.com/www.beroni.in/farmease-app/categories/Crop_Protection.jpg",
+  //   title: "User Guide"
+  // },
+  // {
+  //   img: "https://s3.ap-south-1.amazonaws.com/www.beroni.in/farmease-app/categories/Harvest_Equipment.jpg",
+  //   title: "Harvest Equipment"
+  // },
+  // {
+  //   img: "https://s3.ap-south-1.amazonaws.com/www.beroni.in/farmease-app/categories/Post_Harvest.jpg",
+  //   title: "Post Harvest"
+  // },
+  // {
+  //   img: "https://s3.ap-south-1.amazonaws.com/www.beroni.in/farmease-app/categories/Haulage.jpg",
+  //   title: "Haulage"
+  // }
 ];
 
 const Equipments = () => {
@@ -41,7 +41,7 @@ const Equipments = () => {
     <div className="my-6">
       <div className="mx-16">
         <h1 className="text-center text-3xl font-medium my-10">
-          Sell New & Used Farm Equipment
+          OUR FEATURES
         </h1>
         <div className="grid grid-cols-4 gap-8 mb-[100px]">
           {images.map((image) => (

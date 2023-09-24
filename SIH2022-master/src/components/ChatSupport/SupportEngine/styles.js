@@ -1,4 +1,4 @@
-import logo from '../../../img/logo.png';
+import logo from '/Users/nikhilyadav/Documents/niryat_kendra/SIH2022-master/src/img/onlylogobr.png';
 export const styles = {
     chatWithMeButton: {
         cursor: 'pointer',
@@ -6,6 +6,7 @@ export const styles = {
         // Border
         borderRadius: '50%',
         // Background 
+        backgroundColor: 'white',
         backgroundImage: `url(${logo})`, 
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
@@ -26,8 +27,8 @@ export const styles = {
         padding: '12px 12px 12px 16px',
         borderRadius: '24px', 
         // Color
-        backgroundColor: '#68AC5D',
-        color: 'black',
+        backgroundColor: '#BE1C2D',
+        color: 'white',
     },
     supportWindow: {
         // Position
@@ -42,7 +43,7 @@ export const styles = {
         backgroundColor: 'white',
         // Border
         borderRadius: '12px',
-        border: `2px solid #68AC5D`,
+        border: `2px solid #BE1C2D`,
         overflow: 'hidden',
         // Shadow
         boxShadow: '0px 0px 16px 6px rgba(0, 0, 0, 0.33)',
@@ -59,7 +60,7 @@ export const styles = {
         top: '-45px',
         width: '100%',
         height: '308px',
-        backgroundColor: '#68AC5D',
+        backgroundColor: '#BE1C2D',
         transform: 'skewY(-12deg)',
     },
     topText: { 
@@ -76,13 +77,13 @@ export const styles = {
         outline: 'none',
         padding: '12px',
         borderRadius: '12px',
-        border: '2px solid #68AC5D',
+        border: '2px solid #BE1C2D',
     },
     bottomText: { 
         position: 'absolute', 
         width: '100%', 
         top: '70%', 
-        color: '#68AC5D', 
+        color: '#BE1C2D', 
         fontSize: '24px', 
         fontWeight: '600' 
     },
@@ -94,7 +95,7 @@ export const styles = {
         backgroundColor: 'white',
     },
     loadingIcon: { 
-        color: '#68AC5D', 
+        color: '#BE1C2D', 
         position: 'absolute', 
         top: 'calc(50% - 51px)', 
         left: 'calc(50% - 51px)',  
