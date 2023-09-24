@@ -11,7 +11,7 @@ const Support = () => {
         What we offer
       </h1>
       <p className="text-lg text-center mb-[100px] mt-3 opacity-90">
-        Being a part of Krishi Sadhan, this is what you get from us:
+        Being a part of Nriyat Network, this is what you get from us:
       </p>
       <div className="flex justify-center mediaQuery items-center mb-[100px]">
         <div className="supportItem mx-5 getMargin p-9 rounded-2xl">

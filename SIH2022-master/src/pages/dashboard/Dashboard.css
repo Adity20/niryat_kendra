@@ -10,7 +10,7 @@
     margin-left: -4px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    background: #68AC5D;
+    background: #be1c2d;
     color: #fff;
     padding-bottom: 14px !important;
 }
@@ -36,7 +36,7 @@
     margin-left: 40px;
     height: 20px;
     width: 200px;
-    color: #68AC5D;
+    color: #be1c2d;
 }
 
 .rangeInput {
@@ -49,7 +49,7 @@
     border: none;
     border-radius: 20px;
     margin: 10%;
-    background-color: #68AC5D !important;
+    background-color: #be1c2d !important;
 }
 .rangeInput::-webkit-slider-thumb {
     -webkit-appearance: none !important;

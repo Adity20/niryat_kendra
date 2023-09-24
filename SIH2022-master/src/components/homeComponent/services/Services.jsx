@@ -1,10 +1,10 @@
 import React from "react";
 import "./Services.css";
-import services4 from "../../../img/services4.png";
+import services4 from "/Users/nikhilyadav/Documents/niryat_kendra/SIH2022-master/src/img/flowchart.png";
 
 const Services = () => {
   return (
-    <div className="h-1/2 bg-evergreen bg-grey mt-3 p-9">
+    <div className="h-1/2 bg-[white] bg-grey mt-3 p-9">
       <div className="flex justify-center flex-col p-9">
         <h1 className="text-4xl mt-2 font-bold m-auto">Our Services</h1>
         <p className="mt-3 text-lg font-semibold m-auto ">

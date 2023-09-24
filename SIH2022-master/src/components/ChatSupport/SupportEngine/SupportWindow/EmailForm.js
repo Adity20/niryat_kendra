@@ -116,7 +116,7 @@ const EmailForm = props => {
                 </form>
                 
                 <div style={styles.bottomText}>
-                    Enter your email <br /> to get started.
+                    Enter your phone <br /> to get started.
                 </div>
             </div>
         </div>

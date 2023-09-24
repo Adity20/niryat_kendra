@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Header.css";
 import { useNavigate } from "react-router-dom";
-import logo from "../../img/logo.png";
+import logo from "/Users/nikhilyadav/Documents/niryat_kendra/SIH2022-master/src/img/onlylogobr.png";
 import { useSelector, useDispatch } from "react-redux";
 import { getLogoutAction } from "../../redux/actions";
 import Cookies from "js-cookie";
@@ -32,33 +32,33 @@ const Header = () => {
             className="logoWeb"
             alt=""
           />
-          <h3 className="text-md font-bold opacity-[.70]">
-            Krishi <br /> Sadhan
+          <h3 className="text-md font-bold opacity-[.90]">
+            Niryat <br /> Network
           </h3>
         </div>
         <div className="flex-2 w-5/12 mx-auto">
           <ul className="flex mt-4 items-around">
             <li
               onClick={() => navigate("/")}
-              className="text-lg cursor-pointer font-semibold text-[#219653] hover:opacity-90 lg:ml-7 ml-6 mr-1.5"
+              className="text-lg cursor-pointer font-semibold text-[#be1c2d] hover:opacity-90 lg:ml-7 ml-6 mr-1.5"
             >
               Home
             </li>
             <li
-              className="text-lg cursor-pointer font-semibold text-[#219653] hover:opacity-90 ml-6 mr-1.5"
+              className="text-lg cursor-pointer font-semibold text-[#be1c2d] hover:opacity-90 ml-6 mr-1.5"
               onClick={() => navigate("/dashboard")}
             >
               Dashboard
             </li>
             <li
-              className="text-lg cursor-pointer font-semibold text-[#219653] hover:opacity-90 ml-6 mr-1.5"
+              className="text-lg cursor-pointer font-semibold text-[#be1c2d] hover:opacity-90 ml-6 mr-1.5"
               onClick={() => navigate("/addProduct")}
             >
               Add Product
             </li>
             <li
               onClick={() => navigate("/help")}
-              className="text-lg cursor-pointer font-semibold text-[#219653] hover:opacity-90 ml-6 mr-1.5"
+              className="text-lg cursor-pointer font-semibold text-[#be1c2d] hover:opacity-90 ml-6 mr-1.5"
             >
               Help
             </li>
@@ -68,13 +68,13 @@ const Header = () => {
           <div className="flex items-center">
             <button
               onClick={() => setShowLogin(true)}
-              className="hover:bg-[#219653] bg-white border-2 transition border-[#219653] text-[#219653] hover:text-white font-bold py-1 px-8 rounded mx-2"
+              className="hover:bg-[#be1c2d] bg-white border-2 transition border-[#be1c2d] text-[#be1c2d] hover:text-white font-bold py-1 px-8 rounded mx-2"
             >
               Login
             </button>
             <button
               onClick={() => setShowRegister(true)}
-              className="hover:bg-[#219653] bg-white border-2 transition border-[#219653] text-[#219653] hover:text-white font-bold py-1 px-8 rounded mx-4"
+              className="hover:bg-[#be1c2d] bg-white border-2 transition border-[#be1c2d] text-[#be1c2d] hover:text-white font-bold py-1 px-8 rounded mx-4"
             >
               Sign Up
             </button>

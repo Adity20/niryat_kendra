@@ -24,7 +24,7 @@ const Avatar = props => {
                 className='transition-3'
                 style={{
                     ...styles.chatWithMeButton,
-                    ...{ border: hovered ? '1px solid #f9f0ff' : '4px solid #68AC5D' }
+                    ...{ border: hovered ? '1px solid #f9f0ff' : '4px solid #BE1C2D' }
                 }}
             />
         </div>
